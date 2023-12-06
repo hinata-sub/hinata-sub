@@ -1,0 +1,36 @@
+.bg_pattern {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffe9a7;
+  opacity: 0.4;
+  z-index: -1;
+}
+.ZigZag_3D {
+  background: linear-gradient(135deg, #ffc10755 25%, transparent 25%) -20px 0/ 40px 40px, linear-gradient(225deg, #ffc107 25%, transparent 25%) -20px 0/ 40px 40px, linear-gradient(315deg, #ffc10755 25%, transparent 25%) 0px 0/ 40px 40px, linear-gradient(45deg, #ffc107 25%, #ffe9a7 25%) 0px 0/ 40px 40px;
+}
+h1 {
+  padding: 0.5em;/*文字周りの余白*/
+  color: #010101;/*文字色*/
+  background: #eaf3ff;/*背景色*/
+  border-bottom: solid 3px #516ab6;/*下線*/
+}
+.box-design1 {
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #4c9ac0;
+  border-radius: 20px;
+ background: #ffffff;/*背景色*/
+width: 800px;
+}
+.link-box {
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #4c9ac0;
+  border-radius: 20px;
+ background: #ffffff;/*背景色*/
+width: 250px;
+height: 250px;
+}
